@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <html lang="ru">
-    <script src="script.js"></script>
+    <script src="js.js"></script>
     <head>
         <link rel="stylesheet" href="styles.css">
         <meta charset="utf-8">
@@ -18,5 +18,13 @@
             <p>HTML - это язык гипертекстовой разметки страниц.</p>
             <p>Он нужен, чтобы определить структуру и контент веб-страницы.</p>
         </div>
+
+        <label for="guess">Ваша догадка:</label> 
+
+        <input type="text" id="guess">
+
+        <button onclick="checkGuess()">Проверить!</button>
+
+        <p id="result"></p>
     </body>
 </html>
